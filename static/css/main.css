@@ -1595,7 +1595,7 @@ div .flower__price--darker {
 
 @media(min-width: 65rem) {
   .header{
-    height: 54vh;
+    height: 64vh;
   }
 
   header {
@@ -1618,6 +1618,10 @@ div .flower__price--darker {
     width: 35rem;
     transform: translate(0rem, -3rem);
     padding-right: 2rem;
+  }
+  
+  .header{
+    height: 64vh;
   }
 
   header {
@@ -1662,6 +1666,7 @@ div .flower__price--darker {
     transform: translate(-1rem, -1.8rem);
   }
 
+  
   header {
     margin-left: 3rem;
     height: 68vh;
