@@ -106,9 +106,7 @@
       }
     },
     getSeasonForFlowers(items){
-      // for (let i = 0; i < this.$btn.length; i++){
-      //   this.$btn[i].classList.remove("active");
-      // }
+
       for (const element of this.$btn) {
           element.classList.remove("active");
       } 
