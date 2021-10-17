@@ -1678,7 +1678,7 @@ div .flower__price--darker {
   .hero {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
     flex-direction: row;
   }
@@ -1705,7 +1705,7 @@ div .flower__price--darker {
   }
 
   .hero__img {
-    width: 36vw;
+    width: 30;
     transform: translate(-2rem, -3rem);
     padding-bottom: 0rem;
     padding-top: 0rem;
@@ -1725,3 +1725,7 @@ div .flower__price--darker {
     margin-bottom: -4rem;
   }
 }
+
+/* @media(min-width: 92rem) {
+
+} */
